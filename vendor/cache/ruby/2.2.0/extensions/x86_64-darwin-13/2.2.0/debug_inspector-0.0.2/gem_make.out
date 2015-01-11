@@ -1,0 +1,11 @@
+/Users/xiuli.shen/.rvm/rubies/ruby-2.2.0/bin/ruby -r ./siteconf20150110-3957-oi53am.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20150110-3957-1aj4dav
